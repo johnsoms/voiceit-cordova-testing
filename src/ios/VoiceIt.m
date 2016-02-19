@@ -42,7 +42,7 @@
         initWithURL:[[NSURL alloc] initWithString:[self addString:[self getHost] secondString:@"users"]]];
     NSURLSession *session = [NSURLSession sharedSession];
     [request setHTTPMethod:@"GET"];
-    [request addValue:@"14" forHTTPHeaderField:@"VsitDeveloperId"];
+    [request addValue:@"14" forHTTPHeaderField:@"PlatformID"];
     [request addValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     [request addValue:@"application/json" forHTTPHeaderField:@"Accept"];
     [request addValue:self.developerId forHTTPHeaderField:@"VsitDeveloperId"];
@@ -74,7 +74,7 @@
         initWithURL:[[NSURL alloc] initWithString:[self addString:[self getHost] secondString:@"users"]]];
     NSURLSession *session = [NSURLSession sharedSession];
     [request setHTTPMethod:@"POST"];
-    [request addValue:@"14" forHTTPHeaderField:@"VsitDeveloperId"];
+    [request addValue:@"14" forHTTPHeaderField:@"PlatformID"];
     [request addValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     [request addValue:@"application/json" forHTTPHeaderField:@"Accept"];
     [request addValue:self.developerId forHTTPHeaderField:@"VsitDeveloperId"];
@@ -107,7 +107,7 @@
         initWithURL:[[NSURL alloc] initWithString:[self addString:[self getHost] secondString:@"users"]]];
     NSURLSession *session = [NSURLSession sharedSession];
     [request setHTTPMethod:@"PUT"];
-    [request addValue:@"14" forHTTPHeaderField:@"VsitDeveloperId"];
+    [request addValue:@"14" forHTTPHeaderField:@"PlatformID"];
     [request addValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     [request addValue:@"application/json" forHTTPHeaderField:@"Accept"];
     [request addValue:self.developerId forHTTPHeaderField:@"VsitDeveloperId"];
@@ -138,7 +138,7 @@
         initWithURL:[[NSURL alloc] initWithString:[self addString:[self getHost] secondString:@"users"]]];
     NSURLSession *session = [NSURLSession sharedSession];
     [request setHTTPMethod:@"DELETE"];
-    [request addValue:@"14" forHTTPHeaderField:@"VsitDeveloperId"];
+    [request addValue:@"14" forHTTPHeaderField:@"PlatformID"];
     [request addValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     [request addValue:@"application/json" forHTTPHeaderField:@"Accept"];
     [request addValue:self.developerId forHTTPHeaderField:@"VsitDeveloperId"];
@@ -170,7 +170,7 @@
                         initWithString:[self addString:[self getHost] secondString:@"enrollments"]]];
     NSURLSession *session = [NSURLSession sharedSession];
     [request setHTTPMethod:@"GET"];
-    [request addValue:@"14" forHTTPHeaderField:@"VsitDeveloperId"];
+    [request addValue:@"14" forHTTPHeaderField:@"PlatformID"];
     [request addValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     [request addValue:@"application/json" forHTTPHeaderField:@"Accept"];
     [request addValue:self.developerId forHTTPHeaderField:@"VsitDeveloperId"];
@@ -201,7 +201,7 @@
                                                  initWithString:[self addString:[self getHost] secondString:@"enrollments/count"]]];
     NSURLSession *session = [NSURLSession sharedSession];
     [request setHTTPMethod:@"GET"];
-    [request addValue:@"14" forHTTPHeaderField:@"VsitDeveloperId"];
+    [request addValue:@"14" forHTTPHeaderField:@"PlatformID"];
     [request addValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     [request addValue:@"application/json" forHTTPHeaderField:@"Accept"];
     [request addValue:self.developerId forHTTPHeaderField:@"VsitDeveloperId"];
@@ -235,7 +235,7 @@
                         initWithString:[self addString:[self getHost] secondString:@"enrollments"]]];
     NSURLSession *session = [NSURLSession sharedSession];
     [request setHTTPMethod:@"POST"];
-    [request addValue:@"14" forHTTPHeaderField:@"VsitDeveloperId"];
+    [request addValue:@"14" forHTTPHeaderField:@"PlatformID"];
     [request addValue:@"audio/wav" forHTTPHeaderField:@"Content-Type"];
     [request addValue:@"application/json" forHTTPHeaderField:@"Accept"];
     [request addValue:self.developerId forHTTPHeaderField:@"VsitDeveloperId"];
@@ -270,7 +270,7 @@
                         initWithString:[self addString:[self getHost] secondString:@"enrollments/bywavurl"]]];
     NSURLSession *session = [NSURLSession sharedSession];
     [request setHTTPMethod:@"POST"];
-    [request addValue:@"14" forHTTPHeaderField:@"VsitDeveloperId"];
+    [request addValue:@"14" forHTTPHeaderField:@"PlatformID"];
     [request addValue:@"audio/wav" forHTTPHeaderField:@"Content-Type"];
     [request addValue:@"application/json" forHTTPHeaderField:@"Accept"];
     [request addValue:self.developerId forHTTPHeaderField:@"VsitDeveloperId"];
@@ -308,7 +308,7 @@
                                                enrollmentId]]];
     NSURLSession *session = [NSURLSession sharedSession];
     [request setHTTPMethod:@"DELETE"];
-    [request addValue:@"14" forHTTPHeaderField:@"VsitDeveloperId"];
+    [request addValue:@"14" forHTTPHeaderField:@"PlatformID"];
     [request addValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     [request addValue:@"application/json" forHTTPHeaderField:@"Accept"];
     [request addValue:self.developerId forHTTPHeaderField:@"VsitDeveloperId"];
@@ -346,7 +346,7 @@
                         initWithString:[self addString:[self getHost] secondString:@"authentications"]]];
     NSURLSession *session = [NSURLSession sharedSession];
     [request setHTTPMethod:@"POST"];
-    [request addValue:@"14" forHTTPHeaderField:@"VsitDeveloperId"];
+    [request addValue:@"14" forHTTPHeaderField:@"PlatformID"];
     [request addValue:@"audio/wav" forHTTPHeaderField:@"Content-Type"];
     [request addValue:@"application/json" forHTTPHeaderField:@"Accept"];
     [request addValue:self.developerId forHTTPHeaderField:@"VsitDeveloperId"];
@@ -389,7 +389,7 @@
         initWithURL:[[NSURL alloc] initWithString:[self addString:[self getHost] secondString:@"authentications/bywavurl"]]];
     NSURLSession *session = [NSURLSession sharedSession];
     [request setHTTPMethod:@"POST"];
-    [request addValue:@"14" forHTTPHeaderField:@"VsitDeveloperId"];
+    [request addValue:@"14" forHTTPHeaderField:@"PlatformID"];
     [request addValue:@"audio/wav" forHTTPHeaderField:@"Content-Type"];
     [request addValue:@"application/json" forHTTPHeaderField:@"Accept"];
     [request addValue:self.developerId forHTTPHeaderField:@"VsitDeveloperId"];
